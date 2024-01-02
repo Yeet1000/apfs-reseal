@@ -109,8 +109,7 @@ case $version in
         ramdisk_ver=16.0.3
         ;;
     *)
-        echo '[-] This script only supports iOS 14.2-16.3.1.' >&2
-        exit 1
+        ramdisk_ver=16.6
         ;;
 esac
 
